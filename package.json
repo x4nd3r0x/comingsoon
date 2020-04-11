@@ -1,0 +1,16 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d comingsoon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://x4nd3r0x.github.io/comingsoon",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
