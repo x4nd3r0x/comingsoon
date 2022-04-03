@@ -1,7 +1,7 @@
-const countdown = document.querySelector('.countdown');
+const countdown = document.querySelector(".countdown");
 
 //Set Launch Date
-const launchdate = new Date('april 9, 2022 00:00:00').getTime();
+const launchdate = new Date("october 31, 2023 00:00:00").getTime();
 
 //update every second
 const intvl = setInterval(() => {
@@ -32,7 +32,7 @@ const intvl = setInterval(() => {
     //stop countdown
     clearInterval(intvl);
     //style and output text
-    countdown.style.color = '#ee6161';
-    countdown.innerHTML = 'Launched!';
+    countdown.style.color = "#ee6161";
+    countdown.innerHTML = "Launched!";
   }
 }, 1000);
